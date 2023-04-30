@@ -15,6 +15,7 @@ export default function ContactForm({ addContact }) {
     addContact({ name, id, number });
     setName('');
     setNumber('');
+    
   };
 
   const handleAddContactName = e => {
